@@ -1,0 +1,11 @@
+server:
+   port: 6501
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka/ 
+   instance:
+      appName:OrderService
+spring:
+   application:
+      name: OrderService
